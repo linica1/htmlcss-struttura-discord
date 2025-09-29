@@ -11,6 +11,11 @@ body {
     color: #222;
 }
 
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
 
 /* Header styles */
 
@@ -22,7 +27,6 @@ body {
 /* Header */
 .site-header {
     background-color: aqua;
-    border-bottom: 1px solid #e6e6e6;
     padding: 10px 0px;
 }
 
@@ -37,11 +41,27 @@ body {
 }
 
 .header-menu {
-    flex-grow: 2;
+    flex-grow: 1;
     text-align: center;
+    padding: 30px 0;
 }
 
 .header-actions {
     flex-grow: 1;
     text-align: right;
+}
+
+/* JUMBOTRON STYLES */
+
+.jumbotron {
+    background-color: blue;
+    color: black;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.jumbo-content {
+    border: 2px dashed #fff;
+    padding: 100px;
+    background-color: pink;
 }
