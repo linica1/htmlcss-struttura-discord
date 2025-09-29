@@ -1,0 +1,47 @@
+/* RESET */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #222;
+}
+
+
+/* Header styles */
+
+.container-header {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header */
+.site-header {
+    background-color: aqua;
+    border-bottom: 1px solid #e6e6e6;
+    padding: 10px 0px;
+}
+
+.header-row {
+    display: flex;
+    padding: 20px 0;
+    background-color: orange;
+}
+
+.header-logo {
+    flex-grow: 1;
+}
+
+.header-menu {
+    flex-grow: 2;
+    text-align: center;
+}
+
+.header-actions {
+    flex-grow: 1;
+    text-align: right;
+}
