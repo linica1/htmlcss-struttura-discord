@@ -94,3 +94,19 @@ body {
 .section-alt {
     background-color: #f6f6f6;
 }
+
+/* TECHNOLOGY STYLES */
+
+.technology {
+    padding: 60px 0;
+    background-color: #f6f6f6;
+}
+
+.technology-card {
+    border: 2px dashed #ccc;
+    text-align: center;
+    min-height: 300px;
+    background-color: green;
+    display: block;
+    margin: 0 auto;
+}
