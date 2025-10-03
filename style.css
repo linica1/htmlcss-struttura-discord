@@ -80,3 +80,23 @@ header {
     background-color: violet;
     width: 80%;
 }
+
+.section-row {
+    padding: 1em 0;
+    min-height: 200px;
+}
+
+.big-column {
+    background: lightskyblue;
+    width: 60%;
+}
+
+.small-column {
+    background: lightpink;
+    width: 40%;
+}
+
+.single-column {
+    background: green;
+    width: 100%;
+}
